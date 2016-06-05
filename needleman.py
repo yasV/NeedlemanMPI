@@ -22,11 +22,6 @@ def llenarMatrix():
       matrix[0][j] = -j;
 
 def imprimirMatrix():
-    print("Matriz Generada");
-    #Display the matrix
-    for row in matrix:
-      print row
-
     print "Mejor Puntaje Obtenido de la comparacion>",matrix[largoH2-1][largoH1-1];
 
 def needlemanWunch():
